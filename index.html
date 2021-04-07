@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Project Title</title>
+<meta charset="utf-8">
+<meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui" />
+<style> @-ms-viewport { width: device-width; } </style>
+<link rel="stylesheet" href="vendor/reset.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="multiple-scenes view-control-buttons">
+
+<div id="pano"></div>
+
+<div id="sceneList">
+  <ul class="scenes">
+    
+      <a href="javascript:void(0)" class="scene" data-id="0-entrance">
+        <li class="text">Entrance</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="1-reception">
+        <li class="text">Reception</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="2-mess">
+        <li class="text">Mess</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="3-dining-area">
+        <li class="text">Dining Area</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="4-hotspot-1">
+        <li class="text">Hotspot 1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="5-hotspot-2">
+        <li class="text">Hotspot 2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="6-fridge-g-floor">
+        <li class="text">Fridge, G. Floor</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="7-1ga">
+        <li class="text">1.G.a</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="8-balcony-1ga">
+        <li class="text">Balcony (1.G.a)</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="9-washroom-1ga">
+        <li class="text">Washroom (1.G.a)</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="10-2ga">
+        <li class="text">2.G.a</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="11-balcony-2ga">
+        <li class="text">Balcony (2.G.a)</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="12-washroom-2ga">
+        <li class="text">Washroom (2.G.a)</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="13-3ga">
+        <li class="text">3.G.a</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="14-3gb">
+        <li class="text">3.G.b</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="15-3gc">
+        <li class="text">3.g.c</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="16-3gd">
+        <li class="text">3.g.d</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="17-washroom-3ga">
+        <li class="text">Washroom (3.G.a)</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="18-washroom-3gb">
+        <li class="text">Washroom (3.G.b)</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="19-washroom-3gc">
+        <li class="text">Washroom (3.G.c)</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="20-washroom-3gd">
+        <li class="text">Washroom (3.G.d)</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="21-balcony-3ga">
+        <li class="text">Balcony (3.G.a)</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="22-balcony-3gb">
+        <li class="text">Balcony (3.G.b)</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="23-staircase">
+        <li class="text">Staircase</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="24-water-coolerg">
+        <li class="text">Water cooler.G</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="25-1st-floor-gallery">
+        <li class="text">1st floor gallery</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="26-21a">
+        <li class="text">2.1.a</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="27-washroom-21a">
+        <li class="text">Washroom (2.1.a)</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="28-balcony-21a">
+        <li class="text">Balcony (2.1.a)</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="29-31a">
+        <li class="text">3.1.a</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="30-washroom-31a">
+        <li class="text">Washroom (3.1.a)</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="31-balcony-31a">
+        <li class="text">Balcony (3.1.a)</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="32-31b">
+        <li class="text">3.1.b</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="33-31c">
+        <li class="text">3.1.c</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="34-washroom-31b">
+        <li class="text">Washroom (3.1.b)</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="35-washroom-31c">
+        <li class="text">Washroom (3.1.c)</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="36-fridge-1st-floor">
+        <li class="text">Fridge, 1st Floor</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="37-21b">
+        <li class="text">2.1.b</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="38-washroom-21b">
+        <li class="text">Washroom (2.1.b)</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="39-balcony-21b">
+        <li class="text">Balcony (2.1.b)</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="40-water-cooler-1">
+        <li class="text">Water Cooler, 1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="41-11a">
+        <li class="text">1.1.a</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="42-balcony-11a">
+        <li class="text">Balcony (1.1.a)</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="43-washroom-11a">
+        <li class="text">Washroom (1.1.a)</li>
+      </a>
+    
+  </ul>
+</div>
+
+<div id="titleBar">
+  <h1 class="sceneName"></h1>
+</div>
+
+<a href="javascript:void(0)" id="autorotateToggle">
+  <img class="icon off" src="img/play.png">
+  <img class="icon on" src="img/pause.png">
+</a>
+
+<a href="javascript:void(0)" id="fullscreenToggle">
+  <img class="icon off" src="img/fullscreen.png">
+  <img class="icon on" src="img/windowed.png">
+</a>
+
+<a href="javascript:void(0)" id="sceneListToggle">
+  <img class="icon off" src="img/expand.png">
+  <img class="icon on" src="img/collapse.png">
+</a>
+
+<a href="javascript:void(0)" id="viewUp" class="viewControlButton viewControlButton-1">
+  <img class="icon" src="img/up.png">
+</a>
+<a href="javascript:void(0)" id="viewDown" class="viewControlButton viewControlButton-2">
+  <img class="icon" src="img/down.png">
+</a>
+<a href="javascript:void(0)" id="viewLeft" class="viewControlButton viewControlButton-3">
+  <img class="icon" src="img/left.png">
+</a>
+<a href="javascript:void(0)" id="viewRight" class="viewControlButton viewControlButton-4">
+  <img class="icon" src="img/right.png">
+</a>
+<a href="javascript:void(0)" id="viewIn" class="viewControlButton viewControlButton-5">
+  <img class="icon" src="img/plus.png">
+</a>
+<a href="javascript:void(0)" id="viewOut" class="viewControlButton viewControlButton-6">
+  <img class="icon" src="img/minus.png">
+</a>
+
+<script src="vendor/screenfull.min.js" ></script>
+<script src="vendor/bowser.min.js" ></script>
+<script src="vendor/marzipano.js" ></script>
+
+<script src="data.js"></script>
+<script src="index.js"></script>
+
+</body>
+</html>
